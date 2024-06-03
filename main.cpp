@@ -68,7 +68,8 @@ int main()
 
     if (maze(arr, 0, 0, n, solarr))
     {
-        cout << "MAP" << endl;
+        cout<<endl;
+        cout << "*****MAP*****" << endl;
 
         for (int i = 0; i < n; i++)
         {
